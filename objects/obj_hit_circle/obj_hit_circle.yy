@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sword",
+  "%Name":"obj_hit_circle",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_sword",
+  "name":"obj_hit_circle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"misc",
+    "path":"folders/Objetos/misc.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sword_iddle",
-    "path":"sprites/spr_sword_iddle/spr_sword_iddle.yy",
+    "name":"spr_hit_circle",
+    "path":"sprites/spr_hit_circle/spr_hit_circle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -83,6 +83,8 @@ switch(state)
 	
 	case "attack":
 	{
+		
+		sprite_index = spr_player_attack
 		hspd = 0;
 		vspd = grv+1
 		
