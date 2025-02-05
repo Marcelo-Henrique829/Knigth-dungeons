@@ -64,13 +64,6 @@ switch(state)
 		hspd = lengthdir_x(8,dir)
 		if(!_chao) vspd = vspd + grv
 		
-		if(_chao) //jump
-		{
-			if(_jump)
-			{
-				vspd-=10
-			}
-		}
 
 		
 		if(scr_end_animation(spr_player_roll))
